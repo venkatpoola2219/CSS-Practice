@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 300px;
+            margin: auto;
+            border: 1px solid wheat;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around ;
+            align-items: center;
+            
+        }
+        h2{
+            text-align: center;
+        }
+        button{
+            background-color: yellow;
+        }
+        .box1{
+            width: 60%;
+            height: auto;     
+        }
+        .box2{
+            width: 40%;
+            height: auto;
+        }
+        img{
+            width: 400px ;
+            height: 250px;
+           
+        }
+        p{
+            padding: 15px;
+        }
+        button{
+            margin: 30px;
+        }
+        @media screen and (max-width:600px) {
+            .container{
+                flex-direction: column;
+               
+            }
+            .box1{
+                width: 100%;
+                height: 300px;
+            }
+            .box2{
+                width: 100%;
+                height: 300px;
+            }
+        }
+
+        
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"> <img src="images/download .aa.jpg" alt=""></div>
+        <div class="box2"> <h2>Heading</h2><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Exercitationem atque, laborum alias, dolorum nulla harum officiis, repellendus eius placeat repellat quisquam quam eligendi, praesentium minima? Nobis, quam beatae dicta aspernatur magnam, deserunt maiores impedit quaerat molestias delectus laboriosam commodi atque libero doloremque eius enim praesentium tempore unde reprehenderit totam ipsa recusandae consequatur dolor asper</p>
+             <button>submit</button>
+             </div>
+      
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 90%;
+            height: 300px;
+            margin: auto;
+            border: 1px solid red;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around ;
+            align-items: center;
+            
+        }
+        .box{
+            width: 250px;
+            height: 200px;
+            background-color: blue;
+            margin: 5px;
+
+           
+        }
+        img{
+            width: 200px ;
+            height: 150px;
+            padding: 25px;
+        }
+        p{
+            padding: 15px;
+        }
+        @media screen and (max-width:600px) {
+            .container{
+                flex-direction: column;
+               
+            }
+            .box{
+                margin:20px;
+
+            }
+        }
+
+        
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"> <img src="images/download .aa.jpg" alt=""></div>
+        <div class="box"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sit repellat est tenetur, eveniet aperiam ipsum repellendus aut dignissimos perspiciatis.
+             Ipsum sunt laudantium beatae sed id eos alias facilis nihil.</p></div>
+        <div class="box"><img src="images/OIP (2).aaaa.jpg" alt=""></div>
+    </div>
+</body>
+</html>

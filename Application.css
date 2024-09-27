@@ -1,0 +1,61 @@
+.container{
+    width: 1000px;
+    height: 600px;
+    background-color: darkviolet;
+    margin: auto;
+    border:1px solid black;
+    text-align: center;
+}
+h2{
+    color: orange;
+    font-family: "Jersey 10", sans-serif;
+}
+h1{
+    color: white;
+    font-family: "Jacquard 24", system-ui;
+}
+hr{
+    width: 300px;
+}
+ 
+.first{
+    height: 370px;
+    width: 250px;
+    display: block;
+    float: left;
+    margin-left: 60px;
+    background-color: blueviolet;
+}
+ .second{
+    height: 370px;
+    width: 250px;
+    display: block;
+    float: left;
+    background-color: blueviolet;
+    margin-left: 60px;
+}
+.third{
+    height: 370px;
+    width: 250px;
+    display: block;
+    float: left;
+    background-color: blueviolet;
+    margin-left: 60px;
+}
+ 
+img{
+    height: 130px;
+    width: 150px;
+    margin-top: 40px;
+}
+input{
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    font-size: large;
+    margin-right: 120px;
+}
+input:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
